@@ -1,8 +1,10 @@
-
+import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="App">Hello</div>
+    <div className="font-roboto h-dvh w-dvw bg-black text-white">
+      <Footer/>
+    </div>
   )
 }
 
