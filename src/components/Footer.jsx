@@ -11,16 +11,15 @@ import { IoIosSend } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="bg-background min-h-72">
-      <section className="h-full max-w-7xl m-auto py-6 px-4 sm:px-6 lg:px-8 flex flex-wrap flex-col gap-12 md:gap-4 sm:flex-row justify-between items-start md:items-center">
+      <section className="h-full container py-6 px-4 sm:px-6 lg:px-8 flex flex-wrap flex-col md:flex-row justify-between space-y-5">
         <div className="flex flex-col items-center">
           <h1 className="flex flex-col items-center text-2xl font-bold mb-4"><PiChefHatFill className="text-7xl me-2 text-accent"/> Hot Cuisines</h1>
           <p className="max-w-70 text-balance text-center mb-4">Deliver the best cuisines to your doorstep. Making your dining experience exceptional.</p>
           <p className="text-gray-400 mb-4">© 2026 Hot Cuisines. All rights reserved.</p>
-          <div className="flex space-x-4"/>
       </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-center md:items-start">
           <h2 className="text-xl font-bold mb-4">Company</h2>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col items-center md:items-start gap-4">
             <li>
               <a className="hover:underline transition-all duration-150" href="#">Home</a>
             </li>
@@ -35,9 +34,9 @@ const Footer = () => {
             </li>
           </ul>
       </div>
-        <div className="">
+        <div className="flex flex-col items-center md:items-start">
           <h2 className="text-xl font-bold mb-4">Customers Help</h2>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col items-center md:items-start gap-4">
             <li>
               <a className="hover:underline transition-all duration-150" href="#">Our Services</a>
             </li>
@@ -52,9 +51,9 @@ const Footer = () => {
             </li>
           </ul>
       </div>
-        <div className="">
+        <div className="flex flex-col items-center md:items-start">
           <h2 className="text-xl font-bold mb-4">Follow Us</h2>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-row gap-4">
             <li>
               <a href="#">
                 <FaFacebook className="text-2xl hover:text-blue-600 transition-all duration-150"/>
@@ -77,7 +76,7 @@ const Footer = () => {
             </li>
           </ul>
       </div>
-        <div className="">
+        <div className="flex flex-col items-center md:items-start">
           <h2 className="text-xl font-bold mb-4">Stay in the Heat</h2>
           <p className="text-gray-400 max-w-70 mb-4">Subscribe to get the latest spicy recipes, hot cuisine tips, and mouth-watering dishes delivered straight to your inbox.</p>
           <div className="border border-gray-700 rounded-full h-12 w-full flex items-center">
