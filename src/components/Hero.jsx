@@ -8,7 +8,7 @@ const Hero = () => {
                 <p className='text-lg md:text-xl text-balance text-center mb-4'>From sizzling street food to gourmet spicy dishes, discover meals that bring the perfect balance of heat and flavor.</p>
                 <div className="flex flex-col md:flex-row items-center gap-4">
                     <button className="px-8 py-4 bg-primary border-2 border-primary font-semibold uppercase rounded-full hover:bg-primary/80 transition-all duration-150 cursor-pointer">Shop Now</button>
-                    <button className="px-8 py-4 bg-transparent border-2 uppercase font-semibold border-secondary text-secondary font-normal rounded-full hover:bg-secondary/80 hover:text-warm-white transition-all duration-150 cursor-pointer">Book a Table</button>
+                    <button className="px-8 py-4 bg-transparent border-2 uppercase font-semibold border-secondary text-secondary rounded-full hover:bg-secondary/80 hover:text-warm-white transition-all duration-150 cursor-pointer">Book a Table</button>
                 </div>
             </div>
         </section>
