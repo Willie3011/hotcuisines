@@ -3,4 +3,11 @@
 
 @theme {
     --font-roboto: 'Roboto', sans-serif;
+
+    /* colors */
+    --color-primary: #E63946;
+    --color-secondary: #F77F00;
+    --color-background: #121212;
+    --color-warm-white: #F5F5F5;
+    --color-accent: #6A994E;
 }

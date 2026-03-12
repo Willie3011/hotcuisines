@@ -10,7 +10,7 @@ import { IoIosSend } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 min-h-72">
+    <footer className="bg-background min-h-72">
       <section className="h-full max-w-7xl m-auto py-6 px-4 sm:px-6 lg:px-8 flex flex-wrap flex-col gap-12 md:gap-4 sm:flex-row justify-between items-start md:items-center">
         <div className="flex flex-col items-start">
           <h1 className="flex items-center text-2xl font-bold mb-4"><PiChefHatFill className="text-4xl me-2 text-mauve-200"/> Hot Cuisines</h1>
